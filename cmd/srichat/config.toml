@@ -2,6 +2,7 @@ app_name = "sri-chat"
 
 [server]
 host = "example.com"
+port = ":8080"
 
 [logger]
 filepath = "sri-chat.log"

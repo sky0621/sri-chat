@@ -4,29 +4,29 @@ import "github.com/Sirupsen/logrus"
 
 // Ctx ...
 type Ctx struct {
-	*Config
-	*Logger
+	*config
+	*logger
 }
 
 // NewCtx ... ConfigとLoggerの生成
 func NewCtx(configpath string) (*Ctx, error) {
-	config, cerr := NewConfig(configpath)
+	config, cerr := newConfig(configpath)
 	if cerr != nil {
 		logrus.Errorf("[ctx][NewCtx] %+v\n", cerr)
 		return nil, cerr
 	}
 
-	logger, lerr := NewLogger(config)
+	logger, lerr := newLogger(config)
 	if lerr != nil {
 		logrus.Errorf("[ctx][NewCtx] %+v\n", lerr)
 		return nil, lerr
 	}
 
-	return &Ctx{Config: config, Logger: logger}, nil
+	return &Ctx{config: config, logger: logger}, nil
 }
 
 // Close ...
 func (c *Ctx) Close() error {
-	c.Logger.logfile.Close()
+	c.logger.close()
 	return nil
 }

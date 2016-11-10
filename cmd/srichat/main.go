@@ -34,7 +34,6 @@ func wrappedMain() (exitCode int) {
 		return sc.ExitCodeSetupError
 	}
 	defer ctx.Close()
-	ctx.Entry.Info("App Start.")
 
 	exitCode, err := sc.Routing(ctx)
 	if err != nil {

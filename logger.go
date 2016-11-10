@@ -6,43 +6,44 @@ import (
 	"github.com/Sirupsen/logrus"
 )
 
-// Logger ...
-type Logger struct {
-	Entry   *logrus.Entry
+// logger ...
+type logger struct {
+	entry   *logrus.Entry
 	logfile *os.File
 }
 
-// NewLogger ...
-func NewLogger(config *Config) (*Logger, error) {
+// newLogger ...
+func newLogger(cfg *config) (*logger, error) {
 	logrusEntry := logrus.WithFields(logrus.Fields{
-		"host":   config.Host,
+		"host":   cfg.Host,
+		"port":   cfg.Port,
 		"system": "sri-chat",
 	})
 	logrusEntry.Logger.Formatter = new(logrus.TextFormatter)
 	logrusEntry.Logger.Formatter = new(logrus.JSONFormatter) // default
 
-	_, err := os.Stat(config.Filepath)
+	_, err := os.Stat(cfg.Filepath)
 	var logfile *os.File
 	if err == nil {
-		logfile, err = os.OpenFile(config.Filepath, os.O_APPEND, 0666)
+		logfile, err = os.OpenFile(cfg.Filepath, os.O_APPEND, 0666)
 	} else {
-		logfile, err = os.Create(config.Filepath)
+		logfile, err = os.Create(cfg.Filepath)
 	}
 	if err != nil {
 		return nil, err
 	}
 	logrusEntry.Logger.Out = logfile
 
-	level, err := logrus.ParseLevel(config.LogLevel)
+	level, err := logrus.ParseLevel(cfg.LogLevel)
 	if err != nil {
 		return nil, err
 	}
 	logrusEntry.Logger.Level = level
 
-	return &Logger{Entry: logrusEntry, logfile: logfile}, nil
+	return &logger{entry: logrusEntry, logfile: logfile}, nil
 }
 
-// Close ...
-func (l *Logger) Close() {
+// close ...
+func (l *logger) close() {
 	l.logfile.Close()
 }

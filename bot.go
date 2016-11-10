@@ -1,4 +1,3 @@
 package chat
 
-// Bot ...
-type Bot struct{}
+type bot struct{}
