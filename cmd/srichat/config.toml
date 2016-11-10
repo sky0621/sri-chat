@@ -1,0 +1,8 @@
+app_name = "sri-chat"
+
+[server]
+host = "example.com"
+
+[logger]
+filepath = "sri-chat.log"
+log_level = "debug" # debug, info, warning, error, fatal
