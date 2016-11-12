@@ -1,1 +1,57 @@
 {"host":"example.com","level":"info","msg":"App Start.","system":"sri-chat","time":"2016-11-11T06:28:11+09:00"}
+{"host":"example.com","level":"info","msg":"Webサーバーを開始します。ポート：:8080","port":":8080","system":"sri-chat","time":"2016-11-12T08:12:13+09:00"}
+{"host":"example.com","level":"info","msg":"チャットルーム起動！","port":":8080","system":"sri-chat","time":"2016-11-12T08:26:28+09:00"}
+{"host":"example.com","level":"info","msg":"Webサーバーを開始します。ポート：:8080","port":":8080","system":"sri-chat","time":"2016-11-12T08:26:28+09:00"}
+{"host":"example.com","level":"info","msg":"チャットルーム起動！","port":":8080","system":"sri-chat","time":"2016-11-12T08:27:50+09:00"}
+{"host":"example.com","level":"info","msg":"Webサーバーを開始します。ポート：:8080","port":":8080","system":"sri-chat","time":"2016-11-12T08:27:50+09:00"}
+{"host":"example.com","level":"info","msg":"チャットルーム起動！","port":":8080","system":"sri-chat","time":"2016-11-12T08:31:16+09:00"}
+{"host":"example.com","level":"info","msg":"Webサーバーを開始します。ポート：:8080","port":":8080","system":"sri-chat","time":"2016-11-12T08:31:16+09:00"}
+{"host":"example.com","level":"info","msg":"チャットルーム起動！","port":":8080","system":"sri-chat","time":"2016-11-12T08:31:44+09:00"}
+{"host":"example.com","level":"info","msg":"Webサーバーを開始します。ポート：:8080","port":":8080","system":"sri-chat","time":"2016-11-12T08:31:44+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントからリクエストあり！","port":":8080","system":"sri-chat","time":"2016-11-12T08:31:45+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントが入室しました。","port":":8080","system":"sri-chat","time":"2016-11-12T08:31:45+09:00"}
+{"host":"example.com","level":"info","msg":"\u0026{  {0 0 \u003cnil\u003e}}","port":":8080","system":"sri-chat","time":"2016-11-12T08:32:26+09:00"}
+{"host":"example.com","level":"info","msg":"メッセージを受信しました。[日時　2016-11-12 08:32:26.7193973 +0900 JST ][メッセージ　%!d(string=) ]","port":":8080","system":"sri-chat","time":"2016-11-12T08:32:26+09:00"}
+{"host":"example.com","level":"info","msg":" -- クライアントに送信されました","port":":8080","system":"sri-chat","time":"2016-11-12T08:32:26+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントからリクエストあり！","port":":8080","system":"sri-chat","time":"2016-11-12T08:32:57+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントが入室しました。","port":":8080","system":"sri-chat","time":"2016-11-12T08:32:57+09:00"}
+{"host":"example.com","level":"info","msg":"\u0026{  {0 0 \u003cnil\u003e}}","port":":8080","system":"sri-chat","time":"2016-11-12T08:33:06+09:00"}
+{"host":"example.com","level":"info","msg":"メッセージを受信しました。[日時　2016-11-12 08:33:06.4877399 +0900 JST ][メッセージ　%!d(string=) ]","port":":8080","system":"sri-chat","time":"2016-11-12T08:33:06+09:00"}
+{"host":"example.com","level":"info","msg":" -- クライアントに送信されました","port":":8080","system":"sri-chat","time":"2016-11-12T08:33:06+09:00"}
+{"host":"example.com","level":"info","msg":" -- クライアントに送信されました","port":":8080","system":"sri-chat","time":"2016-11-12T08:33:06+09:00"}
+{"host":"example.com","level":"info","msg":"Webサーバーを開始します。ポート：:8080","port":":8080","system":"sri-chat","time":"2016-11-12T08:47:47+09:00"}
+{"host":"example.com","level":"info","msg":"チャットルーム起動！","port":":8080","system":"sri-chat","time":"2016-11-12T08:47:47+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントからリクエストあり！","port":":8080","system":"sri-chat","time":"2016-11-12T08:47:54+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントが入室しました。","port":":8080","system":"sri-chat","time":"2016-11-12T08:47:54+09:00"}
+{"host":"example.com","level":"info","msg":"{  {0 0 \u003cnil\u003e}}","port":":8080","system":"sri-chat","time":"2016-11-12T08:48:10+09:00"}
+{"host":"example.com","level":"info","msg":"メッセージを受信しました。[日時　2016-11-12 08:48:10.256994 +0900 JST ][メッセージ　%!d(string=) ]","port":":8080","system":"sri-chat","time":"2016-11-12T08:48:10+09:00"}
+{"host":"example.com","level":"info","msg":" -- クライアントに送信されました","port":":8080","system":"sri-chat","time":"2016-11-12T08:48:10+09:00"}
+{"host":"example.com","level":"info","msg":"チャットルーム起動！","port":":8080","system":"sri-chat","time":"2016-11-12T08:49:37+09:00"}
+{"host":"example.com","level":"info","msg":"Webサーバーを開始します。ポート：:8080","port":":8080","system":"sri-chat","time":"2016-11-12T08:49:37+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントからリクエストあり！","port":":8080","system":"sri-chat","time":"2016-11-12T08:49:44+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントが入室しました。","port":":8080","system":"sri-chat","time":"2016-11-12T08:49:44+09:00"}
+{"host":"example.com","level":"info","msg":"{  {0 0 \u003cnil\u003e}}","port":":8080","system":"sri-chat","time":"2016-11-12T08:49:52+09:00"}
+{"host":"example.com","level":"info","msg":"メッセージを受信しました。2016-11-12 08:49:52.1094971 +0900 JST","port":":8080","system":"sri-chat","time":"2016-11-12T08:49:52+09:00"}
+{"host":"example.com","level":"info","msg":" -- クライアントに送信されました","port":":8080","system":"sri-chat","time":"2016-11-12T08:49:52+09:00"}
+{"host":"example.com","level":"info","msg":"Webサーバーを開始します。ポート：:8080","port":":8080","system":"sri-chat","time":"2016-11-12T08:52:42+09:00"}
+{"host":"example.com","level":"info","msg":"チャットルーム起動！","port":":8080","system":"sri-chat","time":"2016-11-12T08:52:42+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントからリクエストあり！","port":":8080","system":"sri-chat","time":"2016-11-12T08:52:54+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントが入室しました。","port":":8080","system":"sri-chat","time":"2016-11-12T08:52:54+09:00"}
+{"host":"example.com","level":"info","msg":"{  {0 0 \u003cnil\u003e}}","port":":8080","system":"sri-chat","time":"2016-11-12T08:53:04+09:00"}
+{"host":"example.com","level":"info","msg":"メッセージを受信しました。-\u003e ","port":":8080","system":"sri-chat","time":"2016-11-12T08:53:04+09:00"}
+{"host":"example.com","level":"info","msg":" -- クライアントに送信されました","port":":8080","system":"sri-chat","time":"2016-11-12T08:53:04+09:00"}
+{"host":"example.com","level":"info","msg":"Webサーバーを開始します。ポート：:8080","port":":8080","system":"sri-chat","time":"2016-11-12T08:57:26+09:00"}
+{"host":"example.com","level":"info","msg":"チャットルーム起動！","port":":8080","system":"sri-chat","time":"2016-11-12T08:57:26+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントからリクエストあり！","port":":8080","system":"sri-chat","time":"2016-11-12T08:57:32+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントが入室しました。","port":":8080","system":"sri-chat","time":"2016-11-12T08:57:32+09:00"}
+{"host":"example.com","level":"info","msg":"{ テストだよ！ 0001-01-01 00:00:00 +0000 UTC}","port":":8080","system":"sri-chat","time":"2016-11-12T08:57:39+09:00"}
+{"host":"example.com","level":"info","msg":"メッセージを受信しました。：テストだよ！","port":":8080","system":"sri-chat","time":"2016-11-12T08:57:39+09:00"}
+{"host":"example.com","level":"info","msg":" -- クライアントに送信されました","port":":8080","system":"sri-chat","time":"2016-11-12T08:57:39+09:00"}
+{"host":"example.com","level":"info","msg":"Webサーバーを開始します。ポート：:8080","port":":8080","system":"sri-chat","time":"2016-11-12T08:59:35+09:00"}
+{"host":"example.com","level":"info","msg":"チャットルーム起動！","port":":8080","system":"sri-chat","time":"2016-11-12T08:59:35+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントからリクエストあり！","port":":8080","system":"sri-chat","time":"2016-11-12T08:59:39+09:00"}
+{"host":"example.com","level":"info","msg":"クライアントが入室しました。","port":":8080","system":"sri-chat","time":"2016-11-12T08:59:39+09:00"}
+{"host":"example.com","level":"info","msg":"{ テストだよ。。。 0001-01-01 00:00:00 +0000 UTC}","port":":8080","system":"sri-chat","time":"2016-11-12T08:59:45+09:00"}
+{"host":"example.com","level":"info","msg":"メッセージを受信しました。：テストだよ。。。","port":":8080","system":"sri-chat","time":"2016-11-12T08:59:45+09:00"}
+{"host":"example.com","level":"info","msg":" -- クライアントに送信されました","port":":8080","system":"sri-chat","time":"2016-11-12T08:59:45+09:00"}
+{"host":"example.com","level":"info","msg":"ブラウザに返すメッセージ：\u0026{ テストだよ。。。 2016-11-12 08:59:45.9657641 +0900 JST}","port":":8080","system":"sri-chat","time":"2016-11-12T08:59:45+09:00"}
